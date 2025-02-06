@@ -1,0 +1,102 @@
+# 🏦 Python Bank Management System (Using JSON)
+
+## 📌 Overview
+This is a simple **Bank Management System** built using Python. It allows users to **create accounts, deposit, withdraw, transfer money, and check balances**. Data is stored in a JSON file (`bank_data.json`), ensuring persistence without the need for a database.
+
+---
+
+## ⚡ Features
+- ✅ **Create Account** → Register a new bank account with a unique account number.
+- ✅ **Deposit Money** → Add funds to an account.
+- ✅ **Withdraw Money** → Withdraw funds from an account (with balance validation).
+- ✅ **Check Balance** → View account balance.
+- ✅ **Transfer Money** → Send money from one account to another.
+- ✅ **Persistent Data Storage** → Uses JSON to store and retrieve user data.
+
+---
+
+## 🚀 Installation & Setup
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/python-bank-system.git
+cd python-bank-system
+```
+
+### 2️⃣ Run the Program
+Make sure you have Python installed (**Python 3+ recommended**).
+```bash
+python bank.py
+```
+
+If you don’t have the required libraries, install them using:
+```bash
+pip install json
+```
+
+---
+
+## 🎮 How to Use
+
+1️⃣ Run `python bank.py` and choose an option:
+```
+🏦 BANK MANAGEMENT SYSTEM 🏦
+1️⃣ Create Account
+2️⃣ Deposit Money
+3️⃣ Withdraw Money
+4️⃣ Check Balance
+5️⃣ Transfer Money
+6️⃣ Exit
+```
+2️⃣ Follow the on-screen instructions to interact with the system.
+
+---
+
+## 📂 Project Structure
+```
+📁 python-bank-system
+ ├── bank.py           # Main Python script
+ ├── bank_data.json    # JSON file storing bank records
+ ├── README.md         # Project documentation
+```
+
+---
+
+## 📜 Example Usage
+**Creating an Account**:
+```
+Enter your name: John Doe
+Enter a unique account number: 1001
+✅ Account created successfully for John Doe!
+```
+
+**Depositing Money**:
+```
+Enter your account number: 1001
+Enter deposit amount: 500
+💰 Successfully deposited 500. New Balance: 500
+```
+
+---
+
+## 📌 To-Do List (Future Improvements)
+- [ ] Add user authentication with PIN
+- [ ] Implement GUI using Tkinter or Flask
+- [ ] Connect with a SQL database for better storage management
+
+---
+
+## 💡 Contributing
+Contributions are welcome! Feel free to fork this repository and submit a pull request with improvements.
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
+
+---
+
+### 💬 Need Help?
+If you have any issues or questions, feel free to reach out or open an issue in the repository.
+
+Happy Coding! 🚀
+
